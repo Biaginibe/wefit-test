@@ -28,7 +28,6 @@ export function Card({ data, index }) {
 					<div className='block'>
 						<img src={cartImg} alt='adicionar' title='adicionar' />
 						<span>{cartItemsAmount[data.id] || 0}</span>{' '}
-						{/*trocar por valor do use cart depois de montar o hook*/}
 					</div>
           adicionar ao carrinho
 				</Button>

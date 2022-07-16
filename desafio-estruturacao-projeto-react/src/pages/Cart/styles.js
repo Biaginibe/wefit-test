@@ -21,7 +21,6 @@ export const ContentEmpty = styled.div`
 	width: 734.41px;
 
 	display: flex;
-	/* justify-content: center; */
 	align-items: center;
 	flex-direction: column;
 
@@ -44,7 +43,6 @@ export const ContentEmpty = styled.div`
 		top: 45.5%;
 		margin-left: 2.5%;
 		background-color: transparent;
-		/* background-color: red; */
 		width: fit-content;
 		padding: 10px;
 		border-radius: 100px;
@@ -75,8 +73,6 @@ export const Content = styled.div`
 	width: 734.41px;
 
 	display: flex;
-	/* justify-content: center; */
-	/* align-items: flex-start; */
 	flex-direction: column;
 
 	padding: 13px 10px 12px 12px;
@@ -186,14 +182,6 @@ export const FooterCart = styled.div`
 
 export const FinishButton = styled.button`
 	width: fit-content;
-
-  /* border: none;
-	border-radius: 4px;
-	background: var(--blue);
-	color: #fff;
-
-	text-transform: uppercase;
-	text-decoration: none; */
 
 	padding: 11px 25px 11px 24px;
 

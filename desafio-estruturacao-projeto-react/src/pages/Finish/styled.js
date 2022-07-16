@@ -20,7 +20,6 @@ export const Content = styled.div`
 	width: 734.41px;
 
 	display: flex;
-	/* justify-content: center; */
 	align-items: center;
 	flex-direction: column;
 

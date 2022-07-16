@@ -56,7 +56,6 @@ export const Button = styled.button`
 	.block {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 		
     img {
 			width: 11.42px;
