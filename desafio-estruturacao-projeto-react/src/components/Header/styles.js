@@ -35,6 +35,7 @@ export const Content = styled.div`
 		color: var(--subtitle);
 		font-size: 12px;
 		font-weight: 600;
+		text-align: right;
 	}
 `;
 export const Logo = styled(Link)`
