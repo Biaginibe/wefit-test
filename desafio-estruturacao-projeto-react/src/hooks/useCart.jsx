@@ -38,8 +38,6 @@ export function CartProvider({ children }) {
 			const currentAmount = productExists ? productExists.amount : 0;
 			const amount = currentAmount + 1;
 
-      // toast.error('Erro na adição do produto');
-
 			if (productExists) {
 				productExists.amount = amount;
 			} else {

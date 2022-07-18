@@ -11,12 +11,13 @@ function App() {
 			<CartProvider>
 				<Routes />
 				<ToastContainer
+					position='top-right'
 					autoClose={3000}
-					newestOnTop={false}
+					hideProgressBar={false}
 					closeOnClick
-					rtl={false}
 					pauseOnFocusLoss
 					draggable
+					pauseOnHover
 				/>
 				<GlobalStyle />
 			</CartProvider>

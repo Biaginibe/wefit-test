@@ -10,9 +10,6 @@ export function Header() {
     cart.reduce((sumTotal, product) => {
       return sumTotal + product.amount;
     }, 0)
-  
-  
-	// const cartSize = cart.length;
 
 	return (
 		<Container>
